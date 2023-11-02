@@ -105,7 +105,7 @@
 
     var script = document.createElement("script");
 
-    script.src = "//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/test/embed.js";
+    script.src = "//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/sean/embed.js";
     script.type = "text/javascript";
     script.onload = function () {
         if (window.dojoRequire) {
