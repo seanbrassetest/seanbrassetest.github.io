@@ -42,11 +42,11 @@ li:before {
 }
 
 section:nth-child(1) {
-	background-color: #FFCB05; /* Pikachu */
+	background-color: #FFC61A; /* Pikachu */
 }
 
 section:nth-child(2) {
-	background-color: #78C850; /* Bulbasaur */
+	background-color: #009933; /* Bulbasaur */
 }
 
 section:nth-child(3n+1) {
