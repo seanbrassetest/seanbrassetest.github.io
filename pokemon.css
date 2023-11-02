@@ -1,59 +1,57 @@
-body {
-	background-color: #F5F5F5;
-	font-family: 'Arial', sans-serif;
-	border: 5px solid #FF0000;
+.container {
+  border: 5px solid #FF0000;
+  padding: 20px;
 }
 
 h1 {
-	text-align: center;
-	color: #FF0000;
-	font-size: 48px;
-	margin-top: 100px;
+  text-align: center;
+  color: #FF0000;
+  font-size: 48px;
+  margin-top: 100px;
 }
 
 section {
-	padding: 20px;
-	margin-bottom: 20px;
-	box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
-	border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+  border-radius: 10px;
 }
 
 h2 {
-	color: #FF0000;
-	font-size: 24px;
-	margin-bottom: 10px;
+  color: #FF0000;
+  font-size: 24px;
+  margin-bottom: 10px;
 }
 
 ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 li {
-	margin-bottom: 5px;
-	font-size: 18px;
-	color: #333333;
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #333333;
 }
 
 li:before {
-	content: "•";
-	color: #FF0000;
-	margin-right: 10px;
+  content: "•";
+  color: #FF0000;
+  margin-right: 10px;
 }
 
 section:nth-child(2) {
-	background-color: #FEE75C; /* Pikachu */
+  background-color: #FEE75C; /* Pikachu */
 }
 
 section:nth-child(3) {
-	background-color: #8BBE8A; /* Bulbasaur */
+  background-color: #8BBE8A; /* Bulbasaur */
 }
 
 section:nth-child(4) {
-	background-color: #6390F0; /* Squirtle */
+  background-color: #6390F0; /* Squirtle */
 }
 
 section:nth-child(5) {
-	background-color: #F08030; /* Charmander */
-}
+  background-color: #F08030; /* Charmander */
