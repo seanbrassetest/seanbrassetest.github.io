@@ -42,18 +42,18 @@ li:before {
 }
 
 
-section:nth-child(1) {
+section:nth-child(0) {
 	background-color: #FEE75C; /* Pikachu */
 }
 
-section:nth-child(2) {
+section:nth-child(1) {
 	background-color: #8BBE8A; /* Bulbasaur */
 }
 
-section:nth-child(3) {
+section:nth-child(2) {
 	background-color: #6390F0; /* Squirtle */
 }
 
-section:nth-child(4) {
+section:nth-child(3) {
 	background-color: #F08030; /* Charmander */
 }
