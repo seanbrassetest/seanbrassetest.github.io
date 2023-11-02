@@ -11,11 +11,10 @@ h1 {
 }
 
 section {
-	background-color: #FFFFFF;
-	border-radius: 10px;
 	padding: 20px;
 	margin-bottom: 20px;
 	box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+	border-radius: 10px;
 }
 
 h2 {
@@ -40,4 +39,20 @@ li:before {
 	content: "•";
 	color: #FF0000;
 	margin-right: 10px;
+}
+
+section:nth-child(odd) {
+	background-color: #FFCB05; /* Pikachu */
+}
+
+section:nth-child(even) {
+	background-color: #78C850; /* Bulbasaur */
+}
+
+section:nth-child(3n+1) {
+	background-color: #6390F0; /* Squirtle */
+}
+
+section:nth-child(3n+2) {
+	background-color: #F08030; /* Charmander */
 }
