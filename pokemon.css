@@ -57,6 +57,4 @@ section:nth-child(3n+2) {
 	background-color: #F08030; /* Charmander */
 }
 
-section:nth-child(3n) {
-	background-color: #EE99AC; /* Eevee */
-}
+
