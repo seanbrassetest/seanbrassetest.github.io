@@ -41,11 +41,11 @@ li:before {
 	margin-right: 10px;
 }
 
-section:nth-child(odd) {
+section:nth-child(1) {
 	background-color: #FFCB05; /* Pikachu */
 }
 
-section:nth-child(even) {
+section:nth-child(2) {
 	background-color: #78C850; /* Bulbasaur */
 }
 
@@ -55,4 +55,8 @@ section:nth-child(3n+1) {
 
 section:nth-child(3n+2) {
 	background-color: #F08030; /* Charmander */
+}
+
+section:nth-child(3n) {
+	background-color: #EE99AC; /* Eevee */
 }
