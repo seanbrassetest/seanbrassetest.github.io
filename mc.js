@@ -82,7 +82,7 @@
     var scripts = document.getElementsByTagName("script");
     for (var i = 0; i < scripts.length; i++) {
         // look for src containing the old embed.js code and bail if it exists
-        if (scripts[i].getAttribute("src") === "//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" || scripts[i].getAttribute("src") === "//downloads.mailchimp.com/js/signup-forms/popup/embed.js") {
+        if (scripts[i].getAttribute("src") === "//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/cleanup/embed.js" || scripts[i].getAttribute("src") === "//downloads.mailchimp.com/js/signup-forms/popup/embed.js") {
             return;
         }
     }
